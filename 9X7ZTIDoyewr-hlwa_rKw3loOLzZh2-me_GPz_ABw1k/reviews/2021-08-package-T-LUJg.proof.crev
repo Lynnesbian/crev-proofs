@@ -20,3 +20,30 @@ review:
 8GNzztCkImfILC80KJu_ZRr58AksRASjdrIlYuUD7_d6A2GVa3vwdiutsq_6a_OIun-RFUE2GPjoZptNtVToBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-08-04T14:12:21.676015711+10:00"
+from:
+  id-type: crev
+  id: 9X7ZTIDoyewr-hlwa_rKw3loOLzZh2-me_GPz_ABw1k
+  url: "https://github.com/Lynnesbian/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: snailquote
+  version: 0.3.0
+  revision: 9dec17588b9333a3fc1061837b859275b5f73b8f
+  digest: yhr6TEeKyoicg1mbZL0OUG-p71H5toKk0efTZyN-0tQ
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+alternatives:
+  - source: "https://crates.io"
+    name: shell-escape
+comment: |-
+  Very small, relatively simple crate that does one job. No unsafe, good tests, etc.
+----- SIGN CREV PROOF -----
+CytbDKKzHZ9_YJ1ohihqWhaaHYQZW-MfUWMELlXM95F-CaieAyT87Ni5RgNAYIG92wNyKmaIMz4tPhXMEdjSBQ
+----- END CREV PROOF -----
+
